@@ -1,0 +1,13 @@
+{
+  "name": "jellyfin-ai-connect",
+  "version": "1.0.0",
+  "description": "Jellyfin AI Connect — sidecar exposing Jellyfin REST API as Servio tools (libraries, items, users, playback)",
+  "main": "src/index.js",
+  "scripts": { "start": "node src/index.js" },
+  "keywords": ["jellyfin", "media", "ai", "mcp", "servio"],
+  "author": "Gold Technology",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/chgold/jellyfin-ai-connect.git" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "express": "^4.19.2", "node-fetch": "^2.7.0" }
+}
